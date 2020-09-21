@@ -47,13 +47,13 @@ h1{
     left: 550px;
     top: -530px;
     color: darkorange;
-    font-size: 35px;
+    font-size: 220%;
     animation-delay: 3s;
 }
 
 .second_row{
     width: 600px;
-    background-repeat: inherit;
+    background-repeat: revert;
     background-image: url("../resource/wzMsdXVtGZk.jpg");
     background-color: rgba(255, 255, 255, 0.486);
     background-blend-mode: overlay;}
@@ -62,7 +62,12 @@ h1{
     opacity: 0.5;
 }
 
+.char{
+    color: darkorange;
+}
+
 p{
+    text-shadow: 1px 3px 7px blue, 0 0 1em yellow;
     position: relative;
     color: #222;
     font-family: Programme,Arial,sans-serif;
